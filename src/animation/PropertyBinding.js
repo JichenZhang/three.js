@@ -195,7 +195,7 @@ class PropertyBinding {
 
 	static findNode( root, nodeName ) {
 
-		if ( ! nodeName || nodeName === '' || nodeName === '.' || nodeName === - 1 || nodeName === root.name || nodeName === root.uuid ) {
+		if ( ! nodeName || nodeName === '' || nodeName === '.' || nodeName === - 1 || nodeName === root.name || nodeName === root.uuid || nodeName === root.uniqueName ) {
 
 			return root;
 
@@ -223,7 +223,7 @@ class PropertyBinding {
 
 					const childNode = children[ i ];
 
-					if ( childNode.name === nodeName || childNode.uuid === nodeName ) {
+					if ( childNode.name === nodeName || childNode.uuid === nodeName || childNode.uniqueName === nodeName ) {
 
 						return childNode;
 
