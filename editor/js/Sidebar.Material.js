@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from '@oppentech/three';
 
 import { UIButton, UIInput, UIPanel, UIRow, UISelect, UIText } from './libs/ui.js';
 

@@ -1,5 +1,5 @@
 import { Command } from '../Command.js';
-import { Euler } from 'three';
+import { Euler } from '@oppentech/three';
 
 /**
  * @param editor Editor

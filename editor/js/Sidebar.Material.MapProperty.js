@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from '@oppentech/three';
 
 import { UICheckbox, UINumber, UIRow, UIText } from './libs/ui.js';
 import { UITexture } from './libs/ui.three.js';

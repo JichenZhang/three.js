@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from '@oppentech/three';
 
 import { UINumber, UIPanel, UIRow, UISelect, UIText } from './libs/ui.js';
 import { UIBoolean } from './libs/ui.three.js';

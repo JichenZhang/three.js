@@ -1,6 +1,6 @@
 import { UIPanel } from './libs/ui.js';
 
-import * as THREE from 'three';
+import * as THREE from '@oppentech/three';
 
 class ViewHelper extends THREE.Object3D {
 
